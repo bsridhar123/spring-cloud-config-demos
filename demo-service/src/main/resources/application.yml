@@ -1,0 +1,11 @@
+server:
+  port: 5002
+
+logging:
+  level:
+    org.springframework.cloud.sleuth: DEBUG
+    
+  file: demo-service.log
+management:
+  security:
+    enabled: false

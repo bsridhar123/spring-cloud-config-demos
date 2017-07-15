@@ -1,0 +1,11 @@
+server:
+  port: 8888
+  
+  
+management:
+  security:
+    enabled: false  
+spring:
+  cloud:
+    bus:
+      enabled: true
